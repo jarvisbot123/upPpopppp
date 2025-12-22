@@ -21,10 +21,7 @@ module.exports = {
     const ownerName = "𝐍𝐚𝐛𝐢𝐧"; // Replace with your name or bot owner's name
     const createdBy = "𝐍𝐚𝐛𝐢𝐧 𝐬𝐢𝐧𝐠𝐣𝐚𝐥𝐢"; // don't replace with Developer Name
 
-    const bioText = `
-❒  PREFIX: ${prefix} 
-❒  Owner: ${ownerName}
-❒  Developed By: ${createdBy}
+    const bioText = `{}
     `;
 
     api.changeBio(bioText, (e) => {
